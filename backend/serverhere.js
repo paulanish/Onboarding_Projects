@@ -4,7 +4,8 @@ const cors = require("cors");
 const app = express();
 const db = require("./models/model.js");
 
-const joinNowRoutes = require("./routers/joinnow.routers.js")
+const joinNowRoutes = require("./routers/joinnow.routers.js");
+const authRoutes = require("./routers/auth.routh.js");
 
 
  
@@ -32,6 +33,7 @@ app.get("/", (req, res) => {
 
 
 app.use('/api/joinnow', joinNowRoutes);
+app.use('/api/user', authRoutes);
 
 
 

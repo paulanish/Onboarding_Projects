@@ -17,6 +17,7 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
 db.joinNow = require("./joinnow.models.js")(sequelize, Sequelize);
+db.USER = require("../models/user.model.js")(sequelize, Sequelize);
 
 
 module.exports = db;
