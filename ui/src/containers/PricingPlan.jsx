@@ -20,7 +20,7 @@ const PricingPlan = () => {
                         Basic Plan
                     </h2>
                     <h1 className="lg:text-5xl md:text-5xl sm:text-4xl text-4xl text-indigo-600 font-bold mb-3 tracking-wide">
-                        Rs12000 <span className="lg:text-xl md:text-xl sm:text-lg text-base
+                        Rs1800 <span className="lg:text-xl md:text-xl sm:text-lg text-base
                          text-gray-300 font-medium tracking-normal">
                          / month</span>
                     </h1>
@@ -57,7 +57,7 @@ const PricingPlan = () => {
                         Primium Plan
                     </h2>
                     <h1 className="lg:text-5xl md:text-5xl sm:text-4xl text-4xl text-indigo-600 font-bold mb-3 tracking-wide">
-                        Rs18000 <span className="lg:text-xl md:text-xl sm:text-lg text-base
+                        Rs3000 <span className="lg:text-xl md:text-xl sm:text-lg text-base
                          text-gray-300 font-medium tracking-normal">
                          / month</span>
                     </h1>
@@ -79,6 +79,24 @@ const PricingPlan = () => {
                             <CheckSquare className="w-5 h-5 text-indigo-600" />
                             <p className="text-gray-400 lg:text-base md:text-base sm:text-base text-sm">
                                 Use of Lockers
+                            </p>
+                        </div>
+                        <div className="w-full h-auto flex items-start gap-x-2">
+                            <CheckSquare className="w-5 h-5 text-indigo-600" />
+                            <p className="text-gray-400 lg:text-base md:text-base sm:text-base text-sm">
+                                Weekday Pool Access
+                            </p>
+                        </div>
+                        <div className="w-full h-auto flex items-start gap-x-2">
+                            <CheckSquare className="w-5 h-5 text-indigo-600" />
+                            <p className="text-gray-400 lg:text-base md:text-base sm:text-base text-sm">
+                                Free Gym T-shirt
+                            </p>
+                        </div>
+                        <div className="w-full h-auto flex items-start gap-x-2">
+                            <CheckSquare className="w-5 h-5 text-indigo-600" />
+                            <p className="text-gray-400 lg:text-base md:text-base sm:text-base text-sm">
+                                20% discount on all Gym Proucts
                             </p>
                         </div>
                     </div>
@@ -95,7 +113,7 @@ const PricingPlan = () => {
                         VIP Plan
                     </h2>
                     <h1 className="lg:text-5xl md:text-5xl sm:text-4xl text-4xl text-indigo-600 font-bold mb-3 tracking-wide">
-                        Rs35000 <span className="lg:text-xl md:text-xl sm:text-lg text-base
+                        Rs6000 <span className="lg:text-xl md:text-xl sm:text-lg text-base
                          text-gray-300 font-medium tracking-normal">
                          / month</span>
                     </h1>
@@ -117,6 +135,30 @@ const PricingPlan = () => {
                             <CheckSquare className="w-5 h-5 text-indigo-600" />
                             <p className="text-gray-400 lg:text-base md:text-base sm:text-base text-sm">
                                 Use of Lockers
+                            </p>
+                        </div>
+                        <div className="w-full h-auto flex items-start gap-x-2">
+                            <CheckSquare className="w-5 h-5 text-indigo-600" />
+                            <p className="text-gray-400 lg:text-base md:text-base sm:text-base text-sm">
+                                Access to Pool Access 6 days a week 
+                            </p>
+                        </div>
+                        <div className="w-full h-auto flex items-start gap-x-2">
+                            <CheckSquare className="w-5 h-5 text-indigo-600" />
+                            <p className="text-gray-400 lg:text-base md:text-base sm:text-base text-sm">
+                                Free Gym T-shirt
+                            </p>
+                        </div>
+                        <div className="w-full h-auto flex items-start gap-x-2">
+                            <CheckSquare className="w-5 h-5 text-indigo-600" />
+                            <p className="text-gray-400 lg:text-base md:text-base sm:text-base text-sm">
+                                30% discount on all Gym Proucts
+                            </p>
+                        </div>
+                        <div className="w-full h-auto flex items-start gap-x-2">
+                            <CheckSquare className="w-5 h-5 text-indigo-600" />
+                            <p className="text-gray-400 lg:text-base md:text-base sm:text-base text-sm">
+                                Get a Personal trainer 3 days a week
                             </p>
                         </div>
                     </div>
